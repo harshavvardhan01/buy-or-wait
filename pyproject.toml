@@ -1,0 +1,27 @@
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["config", "decide", "events", "explain", "forecast",
+                     "io_load", "money", "personalization", "recurrence",
+                     "schema", "usage", "vision"]
+
+[tool.pytest.ini_options]
+testpaths = ["code/tests"]
+python_files = ["test_*.py"]
+addopts = "-q --tb=short"
+
+
+[tool.mypy]
+python_version = "3.13"
+files = ["code"]
+ignore_missing_imports = true
+warn_unused_ignores = true
+exclude = "code/tests"
+explicit_package_bases = true
+namespace_packages = true

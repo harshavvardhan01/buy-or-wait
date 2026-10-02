@@ -1,0 +1,98 @@
+{
+  "0c0fe3d79e670f2b": {
+    "amount": "9580",
+    "evidence": "Total(Incl Taxes) for Air Travel and related charges",
+    "image_id": "image_15",
+    "source": "vision"
+  },
+  "1ae54b378a9556d9": {
+    "amount": "2298",
+    "evidence": "Total paid",
+    "image_id": "image_13",
+    "source": "vision"
+  },
+  "2665cf731a861ddb": {
+    "amount": "393.22",
+    "evidence": "Total",
+    "image_id": "image_16",
+    "source": "vision"
+  },
+  "281e7f1e7bd1f98f": {
+    "amount": "2854",
+    "evidence": "Item Bill",
+    "image_id": "image_04",
+    "source": "vision"
+  },
+  "795e000d48428c97": {
+    "amount": "3650",
+    "evidence": "Balance",
+    "image_id": "image_11",
+    "source": "vision"
+  },
+  "9055551fbe5940fe": {
+    "amount": "1995.0",
+    "evidence": "Total",
+    "image_id": "image_06",
+    "source": "vision"
+  },
+  "9abcda5647afb3dc": {
+    "amount": "704.05",
+    "evidence": "Amount due till 06-Feb-2026",
+    "image_id": "image_05",
+    "source": "vision"
+  },
+  "bf88e4aa35e6f363": {
+    "amount": "4543",
+    "evidence": "TOTAL",
+    "image_id": "image_14",
+    "source": "vision"
+  },
+  "c90f98caf0877083": {
+    "amount": "79679.26",
+    "evidence": "Total",
+    "image_id": "image_10",
+    "source": "vision"
+  },
+  "ccd779e5382b1bcf": {
+    "amount": "100000",
+    "evidence": "Balance Due",
+    "image_id": "image_02",
+    "source": "vision"
+  },
+  "e0e74e14425d923f": {
+    "amount": "723.00",
+    "evidence": "ocr-fallback",
+    "image_id": "image_09",
+    "source": "ocr"
+  },
+  "e10b0123e66d512d": {
+    "amount": "33.5",
+    "evidence": "Total",
+    "image_id": "image_12",
+    "source": "vision"
+  },
+  "e28592ad8b4dacd0": {
+    "amount": "15339",
+    "evidence": "Total Amount Received",
+    "image_id": "image_08",
+    "source": "vision"
+  },
+  "e5fb0bbcda6cc06f": {
+    "amount": "41272",
+    "evidence": "Net Amount",
+    "image_id": "image_03",
+    "source": "vision"
+  },
+  "f37b40e6af42c664": {
+    "amount": "4365000",
+    "evidence": "Net Pay",
+    "image_id": "image_01",
+    "source": "vision"
+  },
+  "f6d30a74355224c0": {
+    "amount": "8528.1",
+    "evidence": "Total",
+    "image_id": "image_07",
+    "source": "vision"
+  }
+}

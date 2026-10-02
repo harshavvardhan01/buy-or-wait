@@ -1,0 +1,15 @@
+﻿.venv/
+log.txt
+.env
+__pycache__/
+*.pyc
+code.zip
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+frontend/node_modules/
+frontend/dist/
+frontend/dump.css
+sample.json
+frontend-openapi.json
+.vscode/
