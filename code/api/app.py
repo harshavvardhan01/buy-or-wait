@@ -9,6 +9,8 @@ CODE_DIR = Path(__file__).resolve().parent.parent
 if str(CODE_DIR) not in sys.path:
     sys.path.insert(0, str(CODE_DIR))
 
+from decimal import Decimal  # noqa: E402
+
 from fastapi import FastAPI, HTTPException  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 
@@ -16,9 +18,13 @@ from io_load import load_all  # noqa: E402
 from money import RateTable  # noqa: E402
 from vision import resolve_amounts  # noqa: E402
 
-from .models import AnalyzeRequest, AnalyzeResponse ,AccuracyRow, AccuracySummary  # noqa: E402
+from .models import (  # noqa: E402
+    AccuracyRow,
+    AccuracySummary,
+    AnalyzeRequest,
+    AnalyzeResponse,
+)
 from .service import analyze  # noqa: E402
-from decimal import Decimal
 
 app = FastAPI(title="Buy or Wait?",
               description="Deterministic affordability engine over a 90-day "
